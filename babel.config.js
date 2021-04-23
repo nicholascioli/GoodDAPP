@@ -11,11 +11,7 @@ module.exports = function(api) {
         },
       ],
     ],
-    env: {
-      production: {
-        plugins: ['react-native-paper/babel', 'lodash', 'transform-class-properties'],
-      },
-    },
+    plugins: ['react-native-paper/babel', 'lodash', 'transform-class-properties'],
     ignore: ['src/lib/facetec/FaceTecSDK.web.js']
   }
 }
